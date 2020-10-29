@@ -11,7 +11,7 @@ a:hover {
   padding-left: 10px;
 }
 .card-header-me {
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(245, 245, 245);
   color: rgb(128, 128, 128);
   padding: 10px;
   padding-top: 15px;
@@ -19,4 +19,11 @@ a:hover {
 }
 .descr {
   padding-left: 10px;
+}
+
+.rounded-me {
+  border-radius: 50%;
+}
+.stats {
+  padding-bottom: 5px;
 }
