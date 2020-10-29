@@ -135,3 +135,6 @@ li.active a {
   color: #7bf0f0;
   cursor: default;
 }
+.badge {
+  margin-right: 5px;
+}

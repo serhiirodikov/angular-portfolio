@@ -1,0 +1,22 @@
+a {
+  color: rgb(90, 94, 95);
+  padding: 0;
+}
+a:hover {
+  color: rgb(95, 193, 218);
+}
+.repo-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.card-header-me {
+  background-color: rgb(231, 231, 231);
+  color: rgb(128, 128, 128);
+  padding: 10px;
+  padding-top: 15px;
+  border-radius: 5px;
+}
+.descr {
+  padding-left: 10px;
+}
