@@ -1,5 +1,5 @@
 export const obj = {
-  name: 'serhii',
+  name: 'rodikov',
 };
 export const skills = [
   { value: 'HTML, CSS, BootStrap', img: '../../assets/img/boots.png' },
