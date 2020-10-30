@@ -8,28 +8,11 @@
   </div>
   <div class="container">
     <div class="contactInfo">
-      <div class="box">
-        <div class="icon"><i class="fas fa-map-marked-alt"></i></div>
+      <div class="box" *ngFor="let contact of contacts">
+        <div class="icon"><i class="{{ contact.img }}"></i></div>
         <div class="text">
-          <h3>Address</h3>
-          <p>
-            Broshnev-Osada,<br />
-            77611
-          </p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="icon"><i class="fas fa-phone"></i></div>
-        <div class="text">
-          <h3>Phone</h3>
-          <p>+(380) 99 377 63 42</p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="icon"><i class="fas fa-envelope"></i></div>
-        <div class="text">
-          <h3>Email</h3>
-          <p>sergiy1998373@gmail.com</p>
+          <h3>{{ contact.title }}</h3>
+          <p>{{ contact.value }}</p>
         </div>
       </div>
     </div>
